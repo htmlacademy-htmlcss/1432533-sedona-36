@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Емцев](https://up.htmlacademy.ru/htmlcss/36/user/1432533).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
