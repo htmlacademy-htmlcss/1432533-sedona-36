@@ -7,7 +7,7 @@
   <body>
     <header class="page-header">
       <a class="logo" href="index.html">
-        <img class="logo-img" src="#" alt="Логотип City of Sedona" >
+        <img class="logo-img" src="images/logo.svg" alt="Логотип City of Sedona" width="140" height="70">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -51,41 +51,26 @@
             <a class="breadcrubs-hostel">Гостиницы</a>
           </li>
         </ul>
-        <form
-          class="catalog-filter"
-          action="https://echo.htmlacademy.ru/"
-          method="get"
-        >
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    name="pool"
-                    checked
-                  >Бассейн
+                  <input class="control-input" type="checkbox" name="pool" checked>
+                  Бассейн
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    name="parking"
-                    checked
-                  >Парковка
+                  <input class="control-input" type="checkbox" name="parking" checked>
+                  Парковка
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    name="wi-fi"
-                  >Wi-Fi
+                  <input class="control-input" type="checkbox" name="wi-fi">
+                  Wi-Fi
                 </label>
               </li>
             </ul>
@@ -95,35 +80,19 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="type-housing"
-                    value="hotel"
-                    checked
-                  >
+                  <input class="control-input" type="radio" name="type-housing" value="hotel" checked>
                   Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="type-housing"
-                    value="motel"
-                  >
+                  <input class="control-input" type="radio" name="type-housing" value="motel">
                   Мотель
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="type-housing"
-                    value="apartment"
-                  >
+                  <input class="control-input" type="radio" name="type-housing" value="apartment">
                   Апартаменты
                 </label>
               </li>
@@ -132,22 +101,20 @@
           <fieldset class="filter-price">
             <legend class="filter-price-title">Стоимость, ₽:</legend>
             <div class="price-controls">
-              <label class="min-price"
-                >от <input type="text" name="min-price" value="0"
-              ></label>
-              <label class="max-price"
-                >до <input type="text" name="max-price" value="9000"
-              ></label>
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="9000"></label>
             </div>
             <div class="price-scale">
-              <input type="range" id="volume" name="prise" min="0" max="9000" >
+              <input type="range" id="volume" name="prise" min="0" max="9000">
             </div>
           </fieldset>
           <div class="button-catalog-filter">
             <button class="button button-accept" type="submit">
               Применить
             </button>
-            <button class="button button-reset" type="reset">Сбросить</button>
+            <button class="button button-reset" type="reset">
+              Сбросить
+            </button>
           </div>
         </form>
       </section>
@@ -180,16 +147,11 @@
         <ul class="product-card">
           <li class="product-card-item">
             <article>
-              <img
-                class="product-card-image"
-                src=""
-                alt="Фото гостиницы Amara Resort & Spa"
-              >
+              <img class="product-card-image" src="images/catalog/hotel-amara.jpg" alt="Фото гостиницы Amara Resort & Spa" width="300" height="212">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
               <span class="product-card-type-home">Гостиница</span>
               <span class="product-card-price"
-                >От <span class="price">4000</span> ₽</span
-              >
+                >От <span class="price">4000</span> ₽</span>
               <a class="button button-detail" href="#">Подробнее</a>
               <button class="button button-favorite" type="submit">
                 В избранное
@@ -202,21 +164,13 @@
           </li>
           <li class="product-card-item">
             <article>
-              <img
-                class="product-card-image"
-                src=""
-                alt="Фото гостиницы Villas at Poco Diablo"
-              >
+              <img class="product-card-image" src="images/catalog/hotel-villas.jpg" alt="Фото гостиницы Villas at Poco Diablo" width="300" height="212">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
               <span class="product-card-type-home">Гостиница</span>
               <span class="product-card-price"
-                >От <span class="price">5000</span> ₽</span
-              >
+                >От <span class="price">5000</span> ₽</span>
               <a class="button button-detail" href="#">Подробнее</a>
-              <button
-                class="button button-favorite button-favorite-active"
-                type="submit"
-              >
+              <button class="button button-favorite button-favorite-active" type="submit">
                 В избранноm
               </button>
               <span class="stars">
@@ -227,11 +181,7 @@
           </li>
           <li class="product-card-item">
             <article>
-              <img
-                class="product-card-image"
-                src=""
-                alt="Фото гостиницы Desert Quail Inn"
-              >
+              <img class="product-card-image" src="images/catalog/hotel-desert.jpg" alt="Фото гостиницы Desert Quail Inn" width="300" height="212">
               <h3 class="product-card-title">Desert Quail Inn</h3>
               <span class="product-card-type-home">Гостиница</span>
               <span class="product-card-price"
@@ -249,16 +199,10 @@
           </li>
           <li class="product-card-item">
             <article>
-              <img
-                class="product-card-image"
-                src=""
-                alt="Фото гостиницы GreenTree Inn"
-              >
+              <img class="product-card-image" src="images/catalog/hotel-green.jpg" alt="Фото гостиницы GreenTree Inn" width="300">
               <h3 class="product-card-title">GreenTree Inn</h3>
               <span class="product-card-type-home">Гостиница</span>
-              <span class="product-card-price"
-                >От <span class="price">1500</span> ₽</span
-              >
+              <span class="product-card-price">От <span class="price">1500</span> ₽</span>
               <a class="button button-deyail" href="#">Подробнее</a>
               <button class="button button-favorite" type="submit">
                 В избранное
