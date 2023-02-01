@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -33,21 +34,21 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="button button-want" href="">Хочу сюда</a>
+            <button class="button button-want" href="">Хочу сюда</button>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-page">
-      <section>
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+      <section class="search">
+        <h1>Гостиницы Седоны</h1>
         <ul class="breadcrubs-list">
           <li class="breadcrubs-item">
             <a class="breadcrubs-home" href="index.html">
               <span class="visually-hidden">Домой</span>
             </a>
           </li>
-          <li class="breadcrubs-items">
+          <li class="breadcrubs-item">
             <a class="breadcrubs-hostel">Гостиницы</a>
           </li>
         </ul>
@@ -118,9 +119,9 @@
           </div>
         </form>
       </section>
-      <section>
-        <header>
-          <h2 class="hotels-found">Найдено гостинец: <span>38</span></h2>
+      <section class="result">
+        <header class="header-resylt">
+          <h2>Найдено гостинец: <span>38</span></h2>
           <select class="select-control" aria-label="Сортировка">
             <option value="cheap">Сначала дешёвое</option>
             <option value="popular">Сначала популярное</option>
@@ -214,7 +215,7 @@
             </article>
           </li>
         </ul>
-        <footer>
+        <footer class="footer-search">
           <h3 class="visually-hidden">Загрузить еще.</h3>
           <ul class="pagination-list">
             <li class="pagination-item pagination-item-active">
@@ -229,7 +230,7 @@
             <li class="pagination-item">
               <a class="button-pagination-link" href="#">4</a>
             </li>
-            <li class="pagination-item">
+            <li class="pagination-item pagination-item-points">
               <a class="button-pagination-link">...</a>
             </li>
             <li class="pagination-item">
