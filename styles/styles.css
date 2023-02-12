@@ -208,10 +208,16 @@ li .second-2 {
 
 .discription-advantages {
   margin: 0 auto;
-  padding: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 64px 0;
+}
+
+.advantages-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .discription-advantages h2{
@@ -240,12 +246,20 @@ li .second-2 {
 }
 
 article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin: 0 a;
   height: 385px;
   width: 400px;
+}
+
+.second-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-1.second-white {
+  color: #333333;
+  background-color: #ffffff;
 }
 
 .interested {
@@ -253,6 +267,7 @@ article {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 96px;
 }
 
 .button-interested {
@@ -266,6 +281,7 @@ article {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+  padding-top: 96px;
 }
 
 .foote-container {
@@ -282,9 +298,14 @@ article {
 .footer-social-list {
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
+
 .subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
   background-image: url("../images/subscribe-background.jpg");
@@ -292,6 +313,15 @@ article {
   background-repeat: no-repeat;
   width: 1200px;
   height: 414.86px;
+  margin: 0 auto;
+}
+
+.subscription-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -319,6 +349,7 @@ article {
   width: 1200px;
   justify-content: space-around;
   align-items: center;
+  margin-top: 104px;
 }
 
 .footer-social a{
