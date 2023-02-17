@@ -377,17 +377,138 @@ article {
 
 .search-container {
   margin: 0;
-}
-
-.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 70px 70px;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
   background-image: url("../images/catalog/Filter-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
-  height: 412px;
-  width: 1200px;
+  max-height: 412px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 40px;
+  height: 307px;
+  width: 1060px;
+}
+
+.breadcrubs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.breadcrubs-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  list-style: none;
+  gap: 10px;
+}
+
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  gap: 167px;
+  min-width: 1060px;
+  min-height: 160px;
+}
+
+.catalog-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 70px;
+  min-width: 370.85px;
+  min-height: 157px;
+}
+
+.catalog-filter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  gap: 32px;
+  min-width: 150.43px;
+  min-height: 157px;
+  border: none;
+}
+
+.catalog-filter-title {
+  margin-bottom: 32px;
+}
+
+.catalog-filter-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  gap: 32px;
+  min-width: 150.43px;
+  min-height: 157px;
+  border: none;
+}
+
+.catalog-filter-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  min-width: 112px;
+  min-height: 101px;
+  list-style: none;
+}
+
+.catalog-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0;
+  gap: 70px;
+  min-width: 549px;
+  min-height: 160px;
+}
+
+.filter-price-title {
+  margin-bottom: 32px;
+}
+
+.filter-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  gap: 32px;
+  width: 288px;
+  height: 160px;
+  border: none;
+}
+
+.button-catalog-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 32px;
+  width: 191px;
+  height: 104px;
 }
 
 .search h1 {
@@ -461,6 +582,7 @@ article {
   justify-content: flex-end;
   align-items: center;
   padding: 0;
+  gap: 8px;
   width: 160px;
   height: 48px;
 }
