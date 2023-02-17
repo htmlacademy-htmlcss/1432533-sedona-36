@@ -1,0 +1,34 @@
+.page-header {
+  margin: 0 auto;
+  padding: 0;
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  width: 470px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  width: 300px;
+  padding: 0;
+  margin: 0 0 0 auto;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+}
