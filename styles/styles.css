@@ -17,6 +17,7 @@
 .button-want {
   width: 160px;
   height: 36px;
+  padding: 8px 34px;
   background: #756157;
   border-radius: 4px;
   border-style: none;
@@ -30,11 +31,13 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button-favorite {
   width: 140px;
   height: 36px;
+  padding: 8px 20px;
   background: #82B3D3;
   border-radius: 4px;
   border-style: none;
@@ -46,11 +49,13 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button-favorite-active {
   width: 140px;
   height: 36px;
+  padding: 8px 18px;
   background: #7DB54F;
   border-radius: 4px;
   border-style: none;
@@ -62,6 +67,7 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button-detail {
@@ -98,11 +104,13 @@
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .subscription-button {
   width: 232px;
   height: 52px;
+  padding: 8px 50px;
   background: #82B3D3;
   border-radius: 0 4px 4px 0;
   border-style: none;
@@ -114,6 +122,7 @@
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .field {
@@ -124,6 +133,17 @@
   padding: 0;
   margin: 0;
   border-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 html {
@@ -180,6 +200,12 @@ body {
 .navigation-user {
   margin-left: 285px;
   width: 268px;
+}
+
+.navigation-item {
+  background-image: url('images/search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .navigation-link {
@@ -394,7 +420,6 @@ li .second-2 {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
-  padding-top: 96px;
 }
 
 .foote-container {
@@ -418,24 +443,36 @@ li .second-2 {
 .subscription {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: stretch;
+  flex-wrap: wrap;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  width: 1200px;
-  height: 414.86px;
+  min-width: 1200px;
+  min-height: 415px;
   margin: 0 auto;
 }
 
 .subscription-catalog {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: stretch;
+  flex-wrap: wrap;
   color: #000000;
   background-color: #ffffff;
+  min-width: 1200px;
+  min-height: 415px;
   margin: 0 auto;
+}
+
+.subscription-text{
+  width: 475px;
+  min-height: 109px;
+  overflow-wrap: normal;
+  justify-content: center;
+  margin: 96px 363px 54px 363px;
 }
 
 .subscription h2 {
@@ -445,6 +482,19 @@ li .second-2 {
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.subscription-catalog h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .subscription p {
@@ -453,6 +503,21 @@ li .second-2 {
   line-height: 26px;
   font-weight: 400;
   color: #ffffff;
+  margin: 0;
+}
+
+.subscription-catalog p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
 }
 
 .contacts-container {
@@ -462,7 +527,6 @@ li .second-2 {
   width: 1200px;
   justify-content: space-around;
   align-items: center;
-  margin-top: 104px;
 }
 
 .footer-social a{
@@ -883,17 +947,3 @@ li.pagination-last {
 .pagination-item-points a {
   color: #000000;
 }
-
-/*.button {
-  padding: 8px 34px;
-  width: 160px;
-  height: 36px;
-  background: #756157;
-  border-radius: 4px ;
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-}*/
