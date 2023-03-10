@@ -164,29 +164,33 @@ body {
   background-color: #ffffff;
 }
 
-/*Pages*/
+/*Header*/
 
 .page-header {
   display: flex;
   flex-direction: row;
-  min-width: 1200px;
+  flex-wrap: wrap;
+  min-width: 1060px;
   min-height: 64px;
   margin: 0 auto;
   color: #000000;
   background-color: #ffffff;
 }
+.logo {
+  height: 64px;
+}
 
 .logo-img {
   margin-right: 30px;
-  margin-left: 70px;
   position: relative;
 }
-/*Nav*/
+/*Navigation*/
 .navigation{
   display: flex;
   justify-content: space-between;
   align-items: center;
   }
+
 .navigation-list {
   display: flex;
   flex-direction: row;
@@ -194,18 +198,27 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 339px;
+  width: 470px;
+  min-height: 64px;
+  align-content: center;
   }
 
 .navigation-user {
-  margin-left: 285px;
   width: 268px;
 }
 
-.navigation-item {
-  background-image: url('images/search.svg');
+
+.navigation-user .navigation-item:nth-child(1) .navigation-link {
+  background-image: url('../images/search.svg');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url('../images/heart.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
 }
 
 .navigation-link {
@@ -765,6 +778,7 @@ li .second-2 {
   gap: 8px;
   width: 160px;
   height: 48px;
+  list-style: none;
 }
 
 .header-resylt h2 {
@@ -788,7 +802,6 @@ li .second-2 {
 }
 
 .product-card {
-
   padding: 0;
   list-style: none;
   text-align: center;
