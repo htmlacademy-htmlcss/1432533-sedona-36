@@ -125,6 +125,42 @@
   cursor: pointer;
 }
 
+.button-accept {
+  width: 191px;
+  height: 36px;
+  padding: 8px 50px;
+  background: #82B3D3;
+  border-radius: 4px;
+  border-style: none;
+  align-items: center;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-reset {
+  width: 191px;
+  height: 36px;
+  padding: 8px 50px;
+  background: transparent;
+  border-radius: 4px;
+  border-style: none;
+  align-items: center;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .field {
   width: 452px;
   height: 52px;
@@ -184,7 +220,9 @@ body {
   margin-right: 30px;
   position: relative;
 }
+
 /*Navigation*/
+
 .navigation{
   display: flex;
   justify-content: space-between;
@@ -206,7 +244,6 @@ body {
 .navigation-user {
   width: 268px;
 }
-
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
   background-image: url('../images/search.svg');
@@ -452,7 +489,6 @@ li .second-2 {
   list-style: none;
 }
 
-
 .subscription {
   display: flex;
   flex-direction: column;
@@ -537,8 +573,8 @@ li .second-2 {
   display: flex;
   flex-direction: row;
   height: 120px;
-  width: 1200px;
-  justify-content: space-around;
+  width: 1060px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -557,6 +593,44 @@ li .second-2 {
   font-style: normal;
   color: #000000;
   text-decoration: none;
+}
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-link {
+  position: relative;
+  display: block;
+  width: 47px;
+  height: 40px;
+}
+
+.htmlacademy-link{
+  position: relative;
+  display: block;
+  width: 115px;
+  height: 33px;
+}
+
+.social-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #83B3D3;
+}
+
+.copyright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .footer-academy a {
@@ -664,8 +738,6 @@ li .second-2 {
   list-style: none;
 }
 
-
-
 .catalog-right {
   display: flex;
   flex-direction: row;
@@ -767,6 +839,20 @@ li .second-2 {
   margin-bottom: 40px;
   width: 1060px;
   height: 49px;
+}
+
+.select-control {
+  width: 292px;
+  height: 49px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 14px 20px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
 }
 
 .view-item {
