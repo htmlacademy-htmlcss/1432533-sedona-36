@@ -24,7 +24,7 @@
   align-items: center;
   text-decoration: none;
   text-align: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -55,7 +55,7 @@
   border-radius: 4px;
   border-style: none;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -86,7 +86,7 @@
   border-radius: 4px;
   border-style: none;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -118,7 +118,7 @@
   align-items: center;
   text-decoration: none;
   text-align: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -149,7 +149,7 @@
   align-items: center;
   text-decoration: none;
   text-align: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -180,7 +180,7 @@
   border-radius: 0 4px 4px 0;
   border-style: none;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -211,7 +211,7 @@
   border-radius: 4px;
   border-style: none;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -241,7 +241,7 @@
   border-radius: 4px;
   border-style: none;
   align-items: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1276,7 +1276,7 @@ li .second-2 {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   padding: 14px 20px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1468,7 +1468,7 @@ height: 17px;
 }
 
 .product-card-item .product-card-type-home {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1477,7 +1477,7 @@ height: 17px;
 }
 
 .product-card-item .product-card-price {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1512,7 +1512,7 @@ height: 17px;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1582,7 +1582,7 @@ li.pagination-last {
   margin-right: 0;
 }
 .pagination-item a {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
