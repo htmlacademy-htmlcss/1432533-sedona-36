@@ -34,6 +34,19 @@
   cursor: pointer;
 }
 
+.button-want:hover {
+  background: #615048;
+}
+
+.button-want:focus {
+  background: #615048;
+}
+
+.button-want:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .button-favorite {
   width: 140px;
   height: 36px;
@@ -50,6 +63,19 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+.button-favorite:hover {
+  background: #68A2CA;
+}
+
+.button-favorite:focus {
+  background: #68A2CA;
+}
+
+.button-favorite:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .button-favorite-active {
@@ -70,6 +96,19 @@
   cursor: pointer;
 }
 
+.button-favorite-active:hover {
+  background: #6C9E42;
+}
+
+.button-favorite-active:focus {
+  background: #6C9E42;
+}
+
+.button-favorite-active:active {
+  background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .button-detail {
   width: 140px;
   height: 36px;
@@ -86,6 +125,19 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.button-detail:hover {
+  background: #615048;
+}
+
+.button-detail:focus {
+  background: #615048;
+}
+
+.button-detail:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .button-interested {
@@ -107,6 +159,19 @@
   cursor: pointer;
 }
 
+.button-interested:hover{
+  background: #615048;
+}
+
+.button-interested:focus {
+  background: #615048;
+}
+
+.button-interested:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .subscription-button {
   width: 232px;
   height: 52px;
@@ -123,6 +188,19 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+.subscription-button:hover {
+  background: #68A2CA;
+}
+
+.subscription-button:focus {
+  background: #68A2CA;
+}
+
+.subscription-button:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .button-accept {
@@ -143,6 +221,18 @@
   cursor: pointer;
 }
 
+.button-accept:hover {
+  background: #68A2CA;
+}
+.button-accept:focus {
+  background: #68A2CA;
+}
+
+.button-accept:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .button-reset {
   width: 191px;
   height: 36px;
@@ -159,6 +249,19 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+.button-reset:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button-reset:focus {
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .field {
@@ -241,23 +344,11 @@ body {
   align-content: center;
 }
 
-.navigation-link-current-index::before {
+.navigation-link-current::before {
   position: absolute;
-  right: 20px;
+  right: 16px;
   bottom: 0;
   left: 16px;
-  width: 68px;
-  height: 2px;
-  background-color: #756257;
-  content: "";
-}
-
-.navigation-link-current-catalog::before {
-  position: absolute;
-  right: 20px;
-  bottom: 0;
-  left: 16px;
-  width: 93px;
   height: 2px;
   background-color: #756257;
   content: "";
@@ -292,7 +383,6 @@ body {
   text-transform: capitalize;
   padding: 20px 16px;
 }
-
 
 .main-container{
   flex-grow: 1;
@@ -371,7 +461,7 @@ body {
 .advantages-name:before {
   position: absolute;
   bottom: -30px;
-  left: 30%;
+  left: calc(50% - 30px);
   width: 60px;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.3);
@@ -666,15 +756,15 @@ li .second-2 {
   height: 40px;
 }
 
-.social-icon:hover {
+.footer-social-link:hover .social-icon {
   fill: #68A2CA;
 }
 
-.social-icon:focus {
+.footer-social-link:focus .social-icon {
   fill: #68A2CA;
 }
 
-.social-icon:active {
+.footer-social-link:active .social-icon {
   fill: rgba(104, 162, 202, 0.3);
 }
 
@@ -770,8 +860,14 @@ li .second-2 {
   display: flex;
   flex-direction: row;
   margin: 0;
+  padding: 0;
   list-style: none;
   gap: 10px;
+}
+
+.breadcrubs-home {
+  width: 13px;
+  height: 15px;
 }
 
 .catalog-filter {
@@ -1049,7 +1145,15 @@ li .second-2 {
 .rating {
   grid-area: rating;
   justify-self:center;
-  align-self: center;}
+  align-self: center;
+}
+
+.product-card-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .product-card-item h3 {
   font-family: 'PT Sans', sans-serif;
@@ -1106,6 +1210,15 @@ li .second-2 {
   width: 1060px;
   align-items: center;
   gap: 8px;
+}
+
+.pagination-item a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 60px;
+  height: 60px;
 }
 
 li.pagination-item {
