@@ -859,15 +859,25 @@ li .second-2 {
 .breadcrubs-list {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
   gap: 10px;
 }
 
+.breadcrubs-item:not(:first-of-type)::before {
+  content: url(../images/catalog/breadcrubs-arrow.svg);
+}
+
 .breadcrubs-home {
+  display: block;
   width: 13px;
   height: 15px;
+  background-image: url(../images/catalog/catalog-home.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .catalog-filter {
