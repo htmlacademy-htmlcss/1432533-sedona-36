@@ -16,7 +16,6 @@
 
 .button-want {
   width: 160px;
-  height: 36px;
   padding: 8px 34px;
   background: #756157;
   border-radius: 4px;
@@ -32,6 +31,7 @@
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .button-want:hover {
@@ -369,10 +369,13 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 470px;
   min-height: 64px;
   align-content: center;
   align-items: center;
+}
+
+.navigation-main {
+  width: 339px;
 }
 
 .navigation-link-current::before {
@@ -386,21 +389,20 @@ body {
 }
 
 .navigation-user {
-  width: 268px;
+  flex-grow: 0;
   justify-content: end;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-search {
   background-image: url('../images/search.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-heart {
   background-image: url('../images/heart.svg');
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 20px;
 }
 
 .favorites-number {
@@ -453,6 +455,16 @@ body {
   height: 485px;
 }
 
+.hero::after {
+  display: block;
+  background: url("../images/divider.svg");
+  width: 1200px;
+  height: 57px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  content: " ";
+}
+
 .hero-logo {
   display: block;
   margin: 0 auto;
@@ -461,7 +473,9 @@ body {
   height: 352px;
 }
 
-.title {
+/*Advantages*/
+
+.advantages-title {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -471,108 +485,101 @@ body {
   margin: 69px 290px 25px 290px;
 }
 
-.title-2 {
+.advantages-title-text {
   font-family: 'PT Sans', sans-serif;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
   color: #333333;
   text-align: center;
-  margin: 25px 274.5px 90px 274.5px;
+  margin: 25px 274.5px 90px 274px;
 }
 
-.advantages-item {
-  min-height: 385px;
-  min-width: 400px;
+.advantages-image {
+  width: 800px;
 }
 
 .advantages-list {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
 }
 
-.advantages-name {
+.advantages-item-with-images {
+  display: flex;
+  min-height: 385px;
+  width: 100%;
+  background-color: #82B3D3;
+}
+
+.advantages-block-with-picture {
+  padding: 102px 85px 102px 85px;
+}
+
+.advantages-block {
+  display: flex;
+  flex-direction: column;
+  padding: 102px 85px 102px 85px;
+}
+
+.advantages-block-title {
   position: relative;
-  margin: 0 auto;
-  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  margin-bottom: 62px;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 62px;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
 }
 
-.advantages-name:before {
+.advantages-block-description {
+  margin: 0;
+  width: 230px;
+}
+
+.advantages-item {
+  display: list-item;
+  width: 400px;
+  background-color: #82B3D3;
+}
+
+.advantages-item:nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-block-title::before {
   position: absolute;
   bottom: -30px;
   left: calc(50% - 30px);
   width: 60px;
   height: 2px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   content: "";
 }
 
-.color-grey:before {
-  background-color: rgba(0, 0, 0, 0.3);
+.advantages-block-title-white::before {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.basic-3 {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  padding: 0;
-  min-width: 1200px;
-  align-items: center;
-}
-
-.line-1 {
-  display: flex;
-  flex-direction: column;
-  height: 385px;
-  justify-content: center;
-}
-
-.advantages-basic {
-  display: flex;
-  flex-direction: column;
-  margin: 0 85px;
-  width: 230px;
-  height: 181px;
-}
-
-.advantages-item p {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-  margin: 0;
-}
-
-
-
-li .basic-3 {
-  color: #ffffff;
-  background-color: #82B3D3;
-}
-
-.basic-3 p {
+.advantages-block-title-white {
   color: #ffffff;
 }
 
-li .second-1 {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
+.advantages-block-description-white {
+  color: #ffffff;
 }
 
-li .second-2 {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.2);
-}
+/*Service*/
 
 .discription-advantages {
   margin: 0 auto;
