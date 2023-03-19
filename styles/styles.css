@@ -876,7 +876,7 @@ body {
   width: 8px;
   height: 20px;
   content: " ";
-  background-image: url("../images/catalog/breadcrubs-arrow.svg");
+  background-image: url("../images/catalog/breadcrumbs-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1004,7 +1004,7 @@ body {
   height: 10px;
   margin: 6px 4px 4px 4px;
   content: " ";
-  background: url("../images/catalog/checkmark.svg");
+  background: url("../images/catalog/tick.svg");
   background-repeat: no-repeat;
 }
 
