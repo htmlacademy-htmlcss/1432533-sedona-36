@@ -916,6 +916,10 @@ body {
 }
 
 .catalog-filter-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
   width: 150px;
   padding: 0;
   margin: 0;
@@ -923,11 +927,13 @@ body {
   border: none;
 }
 
-.catalog-filter-item:not(last-child) {
-  padding-bottom: 16px;
-}
+
 
 .catalog-filter-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
   margin: 0;
   margin-top: 33px;
   padding: 0;
@@ -1133,14 +1139,11 @@ body {
 
 .range-wrapper-inputs {
   display: flex;
+  gap: 3px;
 }
 
 .catalog-filter-label {
   width: 143px;
-}
-
-.catalog-filter-label:not(:last-child) {
-  margin-right: 3px;
 }
 
 .range-scale {
