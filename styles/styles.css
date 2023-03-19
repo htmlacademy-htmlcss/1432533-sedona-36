@@ -202,6 +202,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 22px 12px;
+  cursor: pointer
 }
 
 .navigation-heart {
@@ -209,6 +210,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 22px 12px;
+  cursor: pointer
 }
 
 .favorites-number {
