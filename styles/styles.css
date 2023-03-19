@@ -1074,7 +1074,6 @@ body {
 
 .button-reset:focus,
 .button-reset:focus-visible {
-  background-color: none;
   border: 2px solid #82B3D3;
   outline: none;
 }
@@ -1889,6 +1888,7 @@ li.pagination-last {
   background-color: #F2F2F2;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .adults-child-minus:hover .icon-minus-path,
@@ -1913,7 +1913,7 @@ li.pagination-last {
 .adults-child-minus svg,
 .adults-child-plus svg {
   margin: auto;
-  background-color: (117, 97, 87, 0.3);
+  background-color: #F2F2F2;
 }
 
 .adults-child-minus:focus-visible svg {
