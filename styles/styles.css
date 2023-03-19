@@ -1213,6 +1213,24 @@ body {
   text-transform: uppercase;
 }
 
+.view-cards {
+  background-image: url(../images/catalog/view-cards.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.view-large {
+  background-image: url(../images/catalog/view-large.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.view-list {
+  background-image: url(../images/catalog/view-list.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .view-icon {
   display: flex;
   align-items: center;
