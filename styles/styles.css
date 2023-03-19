@@ -30,8 +30,8 @@
 }
 
 .button {
+  font-family: 'PT Sans', sans-serif;
   box-sizing: border-box;
-  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -876,7 +876,7 @@ body {
   width: 8px;
   height: 20px;
   content: " ";
-  background-image: url("../images/catalog/breadcrubs-arrow.svg");
+  background-image: url("../images/catalog/breadcrumbs-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -970,6 +970,12 @@ body {
   border-radius: 4px;
 }
 
+.control-mark:focus-visible {
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+  outline: none;
+}
+
 .control-label {
   font-weight: 400;
   font-size: 18px;
@@ -998,7 +1004,7 @@ body {
   height: 10px;
   margin: 6px 4px 4px 4px;
   content: " ";
-  background: url("../images/catalog/checkmark.svg");
+  background: url("../images/catalog/tick.svg");
   background-repeat: no-repeat;
 }
 
@@ -1068,7 +1074,6 @@ body {
 
 .button-reset:focus,
 .button-reset:focus-visible {
-  background-color: none;
   border: 2px solid #82B3D3;
   outline: none;
 }
@@ -1275,7 +1280,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   background-image: url("../images/catalog/arrow.svg");
@@ -1721,7 +1726,7 @@ li.pagination-last {
 .field-date {
   box-sizing: border-box;
   width: 440px;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   padding: 0 0 0 20px;
   line-height: 24px;
@@ -1791,6 +1796,7 @@ li.pagination-last {
 }
 
 .text-under {
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
@@ -1799,6 +1805,7 @@ li.pagination-last {
 }
 
 .text-red {
+  font-family: "PT Sans", sans-serif;
   margin: 4px 0 23px 157px;
   font-size: 16px;
   line-height: 21px;
@@ -1833,10 +1840,10 @@ li.pagination-last {
 }
 
 .adults {
+  font-family: "PT Sans", sans-serif;
   margin-right: 46px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: inherit;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1853,7 +1860,7 @@ li.pagination-last {
 .child {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1881,6 +1888,7 @@ li.pagination-last {
   background-color: #F2F2F2;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .adults-child-minus:hover .icon-minus-path,
@@ -1905,7 +1913,7 @@ li.pagination-last {
 .adults-child-minus svg,
 .adults-child-plus svg {
   margin: auto;
-  background-color: (117, 97, 87, 0.3);
+  background-color: #F2F2F2;
 }
 
 .adults-child-minus:focus-visible svg {
@@ -1933,7 +1941,7 @@ li.pagination-last {
   width: 31px;
   height: 48px;
   padding: 0;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
