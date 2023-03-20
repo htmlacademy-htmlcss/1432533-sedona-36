@@ -570,7 +570,7 @@ body {
 
 .subscription {
   min-height: 414.86px;
-  background-image: url("../images/subscribe-background.jpg");
+  background-image: url("../images/background-subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
@@ -812,7 +812,7 @@ body {
   margin: 0;
   padding: 35px 70px 0 70px;
   color: #ffffff;
-  background-image: url("../images/catalog/filter-background.jpg");
+  background-image: url("../images/catalog/background-filter.jpg");
   background-size: cover;
   background-color: #3699bd;
   background-repeat: no-repeat;
